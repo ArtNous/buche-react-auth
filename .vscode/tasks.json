@@ -1,0 +1,28 @@
+{
+	"version": "2.0.0",
+	"tasks": [
+		{
+			"type": "npm",
+			"script": "dev",
+			"path": "server/",
+			"problemMatcher": [],
+			"label": "Servidor Node",
+			"detail": "Correr servidor node dev"
+		},
+		{
+			"type": "npm",
+			"script": "start",
+			"problemMatcher": [],
+			"label": "React",
+			"detail": "Corre aplicacion react"
+		},
+		{
+			"type": "npm",
+			"script": "build",
+			"group": "build",
+			"problemMatcher": [],
+			"label": "Compilar",
+			"detail": "Compilar react a produccion"
+		}
+	]
+}
